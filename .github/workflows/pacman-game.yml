@@ -13,10 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # This is the action that generates the Pacman graph
-      - name: Generate Pacman Graph
-        uses: Platane/pacman-graph-action@v3
+     # This is the action that generates the Snake game graph
+      - name: Generate Contribution Game
+        uses: danielguimaraes/github-contribution-grid-snake@v4.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          username: TheGaush
-          pacman_file: pacman.yml
+          github_user_name: TheGaush
+          # This action writes directly to the README.md
+          svg_out_path: assets/github-contribution-grid-snake.svg
