@@ -15,7 +15,7 @@ jobs:
 
       # This is the action that generates the Pacman graph
       - name: Generate Pacman Graph
-        uses: Platane/pacman-graph-action@v2
+        uses: Platane/pacman-graph-action@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           username: TheGaush
