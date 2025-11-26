@@ -4,8 +4,7 @@
 
 ## 💻 Information Engineering Student | 🇮🇹 University of Padova, Europe
 
-<img src="https://media.giphy.com/media/QvG0Hj8NGEFhQfL7aQ/giphy.gif" width="60" alt="Wave GIF" />
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="60" alt="Wave GIF" />
 </div>
 
 ---
