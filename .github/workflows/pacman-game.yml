@@ -13,10 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-     # This is the action that generates the Snake game graph
-      - name: Generate Contribution Game
-        uses: danielguimaraes/github-contribution-grid-snake@v4.1.0
+     # Generates the snake game (the most reliable version)
+      - uses: Platane/snk@v3 
+        id: snake-gif
         with:
           github_user_name: TheGaush
-          # This action writes directly to the README.md
-          svg_out_path: assets/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
+          # This ensures the action runs even if there's no contribution today
+          cache: false
+
+      # Pushes the generated snake SVG to your repository
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: main
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
