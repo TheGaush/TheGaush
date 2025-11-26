@@ -53,9 +53,8 @@ Showcasing my commitment to coding and open-source contributions.
 
 ---
 
-### 🕹️ **Contribution Game Board**
+### 🐍 **My Contribution Game**
 
-This section is reserved for the Pacman Contribution Graph!
-
-*Waiting for GitHub Action to generate Pacman graph...*
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TheGaush/TheGaush/main/assets/github-contribution-grid-snake.svg" alt="Snake Game" />
+</div>
