@@ -1,0 +1,22 @@
+name: Update Pacman Graph
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  # Allows you to manually trigger the action from the GitHub UI
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # This is the action that generates the Pacman graph
+      - name: Generate Pacman Graph
+        uses: Platane/pacman-graph-action@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          username: TheGaush
+          pacman_file: pacman.yml
