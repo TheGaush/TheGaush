@@ -2,8 +2,7 @@
 
 # 👋 Hello! I'm **Gaurav Joshi**
 
-## 💻 Information Engineering Student | 🇮🇹 University of Padova, Europe
-
+## Information Engineering Student @ UniPD | Full-Stack Developer & Data Management Enthusiast
 <img src="https://raw.githubusercontent.com/gist/subeshb1/b271b3e9a7e6e580e03102c4623c21a1/raw/707830f367468132e485459ec7d519b7a44f77c3/wave.gif" width="70" alt="Wave GIF" />
 </div>
 
