@@ -52,8 +52,4 @@ Showcasing my commitment to coding and open-source contributions.
 
 ---
 
-### 🐍 **My Contribution Game**
-
-<div align="center">
- <img src="https://raw.githubusercontent.com/TheGaush/TheGaush/main/dist/github-contribution-grid-snake.svg" alt="Snake Game" />
-</div>
+![snake gif](https://github.com/TheGaush/TheGaush/blob/output/github-snake-dark.svg)
