@@ -10,7 +10,7 @@
 
 ### 🚀 **My Core Technology Stack**
 
-I focus on building robust applications across various domains, specializing in full-stack development and data management.
+I'm currently advancing my skills in Information Engineering at the University of Padova, specializing in full-stack development (React, Spring/Python) and database systems (MySQL) to build robust, scalable applications.
 
 <p align="center">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
